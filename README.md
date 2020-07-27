@@ -1,2 +1,2 @@
 # Social-network
-My project written in React.js
+My project established in React.js
