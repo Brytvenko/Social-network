@@ -1,0 +1,10 @@
+
+.avatar {
+  padding: 20px;
+}
+.avatar img {
+  width: 30%;
+  margin: 0 35%;
+  box-shadow: 1px 1px 1px rgb(104, 118, 243);
+  border: 1px solid #000;
+}

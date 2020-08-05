@@ -1,0 +1,32 @@
+.header {
+  grid-area: header;
+  border: 1px solid #000;
+  background: linear-gradient(
+    89deg,
+    #4198c4 48%,
+    #1f77cf 100%,
+    #2a05a3 91%
+  ); /* W3C */
+  display: flex;
+  justify-content: space-between;
+}
+.header img {
+  width: 70px;
+  padding-left: 10px;
+}
+
+.header p {
+  width: 70px;
+  height: 25px;
+  color: #ffffff;
+  border: 1px solid rgb(247, 242, 242);
+  margin: 15px 40px 15px 15px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.header p:active {
+  color: rgb(243, 239, 9);
+  background-color: rgba(129, 238, 238, 0.219);
+}

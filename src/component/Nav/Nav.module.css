@@ -1,0 +1,39 @@
+.nav {
+  background: linear-gradient(
+    306deg,
+    #0800ff 15%,
+    #0650cf 56%,
+    #18a6d1 100%,
+    #ffffff 42%
+  ); /* W3C */
+  line-height: 2;
+  height: 600px;
+  padding: 10px;
+  grid-area: nav;
+  letter-spacing: 1.2px;
+}
+.nav p {
+  border: 1px solid #ffffff;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 100px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.nav p:active {
+  background: linear-gradient(
+    51deg,
+    #000000 12%,
+    #00225c 55%,
+    #2a05a3 100%
+  ); /* W3C */
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: rgb(252, 252, 18);
+}
+.frends img {
+  width: 50px;
+  border-radius: 50%;
+  margin: 80px 10px;
+}

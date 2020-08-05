@@ -1,0 +1,21 @@
+.post {
+  margin-bottom: 5px;
+}
+.post img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 0px 15px 0px 15px;
+}
+.post_like {
+  padding-top: 5px;
+  padding-left: 350px;
+}
+.post_like span {
+  color: rgb(240, 10, 171);
+}
+.post_mess {
+  max-width: 70%;
+  position: relative;
+  top: -40px;
+  left: 100px;
+}

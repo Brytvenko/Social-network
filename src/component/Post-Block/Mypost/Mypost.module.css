@@ -1,0 +1,35 @@
+.block {
+  padding: 25px 0 0 20px;
+}
+.block textarea {
+  min-width: 180px;
+  max-width: 180px;
+  min-height: 40px;
+  max-height: 40px;
+  border: 1px solid rgb(15, 19, 233);
+  border-radius: 7px;
+   padding: 3px;
+}
+.block button {
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  border: 1px solid rgb(21, 5, 253);
+  border-radius: 7px;
+  background: rgba(45, 65, 252, 0.842);
+  color: rgb(252, 252, 252);
+  margin: 10px 0 25px 100px;
+}
+.block button:active {
+  color: rgb(6, 255, 255);
+  box-shadow: 2px 2px rgb(111, 112, 111);
+}
+.mess {
+  padding-top: 20px;
+  border-top: 1px solid rgb(167, 165, 165);
+}
+h1 {
+  font-size: 20px;
+  color: rgb(37, 0, 245);
+  padding-bottom: 15px;
+}

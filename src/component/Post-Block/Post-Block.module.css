@@ -1,0 +1,5 @@
+.post__block {
+  background: linear-gradient(54deg, #87E3FF 21%, #7DD6E8 60%, #4FC4FF 100%);/* W3C */
+  border-left: 2px solid  rgba(124, 124, 124, 0.822);
+  padding: 20px;
+}

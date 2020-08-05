@@ -1,0 +1,15 @@
+.message {
+  padding: 1px 0 2px 10px;
+}
+
+.message img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.message_text {
+  max-width: 70%;
+  position: relative;
+  top: -40px;
+  left: 70px;
+}
