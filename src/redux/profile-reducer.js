@@ -17,10 +17,16 @@ const profReducer = (state = initialState, action) => {
       message: state.newPostText,
       likest: 0,
     };
-    state.newPostText = "";
-    state.pData.unshift(newPost);
+    let newStateCopy = { ...state };
+    newStateCopy.pData = [...state.pData];
+    newStateCopy.pData.unshift(newPost);
+    newStateCopy.newPostText = "";
+    return newStateCopy;
+    //newStateCopy.pData.unshift(newPost);
   } else if (action.type === Update_Text) {
-    state.newPostText = action.newText;
+    let newStateCopyText = { ...state };
+    newStateCopyText.newPostText = action.newText;
+    return newStateCopyText;
   }
 
   return state;

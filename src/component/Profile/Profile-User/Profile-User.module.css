@@ -1,10 +1,17 @@
-
 .avatar {
-  padding: 20px;
 }
 .avatar img {
-  width: 30%;
-  margin: 0 35%;
-  box-shadow: 1px 1px 1px rgb(104, 118, 243);
+  min-width: 150px;
+  max-width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 25px;
+
   border: 1px solid #000;
+}
+.info {
+  padding: 15px;
+  letter-spacing: 2px;
+  line-height: 2;
 }
