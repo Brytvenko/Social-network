@@ -5,8 +5,8 @@ const Update_Text = "Update-Text";
 let initialState = {
   pData: [
     { id: 1, message: "Hi", likest: 5 },
-    { id: 2, message: "Hliqeqw", likest: 2 },
-    { id: 3, message: "Hu-lu mu-lu", likest: 6 },
+    { id: 2, message: "How are you?", likest: 2 },
+    { id: 3, message: "Im fine)", likest: 6 },
   ],
   newPostText: " ",
 };

@@ -5,8 +5,8 @@ import Nav from "./component/Nav/Nav";
 import Profile from "./component/Profile/Profile";
 import { Route } from "react-router-dom";
 import DialogsContainer from "./component/Dialogs/DialogsContainer";
+import UsersContainer from "./component/Users/UsersContainer";
 
-let Prof = () => <Profile />;
 let Dial = () => <DialogsContainer />;
 
 function App(props) {
@@ -23,6 +23,7 @@ function App(props) {
           path="/dialogs"
           render={() => <DialogsContainer store={props.store} />}
         />
+        <Route path="/users" render={() => <UsersContainer />} />
       </div>
     </div>
   );

@@ -30,26 +30,9 @@ function Nav() {
           <p>Settings</p>
         </NavLink>
         <div>
-          {/*<div className={classes.frends}>
-            <NavLink to="/1" state={state.pData}>
-              <img
-                src="https://avatars.mds.yandex.net/get-pdb/1352825/a5f8fbd7-515e-49f8-81d6-be55a2daac92/s600?webp=false"
-                alt=""
-              />
-            </NavLink>
-            <NavLink to="/2" state={state.pData}>
-              <img
-                src="https://avatars.mds.yandex.net/get-pdb/1352825/a5f8fbd7-515e-49f8-81d6-be55a2daac92/s600?webp=false"
-                alt=""
-              />
-            </NavLink>
-            <NavLink to="/3" state={state.pData}>
-              <img
-                src="https://avatars.mds.yandex.net/get-pdb/1352825/a5f8fbd7-515e-49f8-81d6-be55a2daac92/s600?webp=false"
-                alt=""
-              />
-            </NavLink>
-          </div>*/}
+          <NavLink to="/users" activeClassName={classes.active}>
+            <p>Users</p>
+          </NavLink>
         </div>
       </div>
     </nav>

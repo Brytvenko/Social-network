@@ -1,0 +1,44 @@
+.users {
+  column-count: 2;
+  margin: 10px 20px;
+}
+
+.users img {
+  min-width: 110px;
+  max-width: 120px;
+  min-height: 145px;
+  max-height: 170px;
+  border-radius: 10px;
+  background-color: rgb(163, 163, 163);
+  margin: 10px 20px;
+  border: 1px solid rgb(2, 2, 2);
+}
+
+.users button {
+  width: 85px;
+  height: 25px;
+  margin-left: 33px;
+  border: 1px solid rgb(21, 5, 253);
+  border-radius: 7px;
+  margin-bottom: 5px;
+  color: rgb(252, 252, 252);
+  background: rgba(45, 65, 252, 0.842);
+  box-shadow: 1px 1px rgb(111, 112, 111);
+}
+.info {
+  max-width: 170px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+.users button:active {
+  color: rgb(9, 31, 155);
+  box-shadow: 2px 2px rgb(111, 112, 111);
+}
+
+span {
+  position: relative;
+  top: -175px;
+  left: 140px;
+}
